@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "FlashSeatsPlus",
+    "version": "0.1",
+    "content_scripts": [ {
+          "matches": ["http://www.flashseats.com/*ec=*"],
+          "js": [
+              "jquery-3.3.1.min.js",
+              "content.js"
+            ],
+            "css":["flashseatsplus.css"] // not working yet, background isnt green.
+            
+    } ]
+}
